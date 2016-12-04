@@ -11,8 +11,8 @@ var index = 0;
 // loading the page
 function load() {
   var output = "<div class='block' onmouseover='mouseOver(this)' onmouseout='mouseOut(this);'></div>";
-// looping 1000 time
-for (var i = 0; i < 1000 ; i++) {
+// looping 800 time
+for (var i = 0; i < 800 ; i++) {
   // addind divs to grid div
    document.getElementById('grid').innerHTML += output;
  }
